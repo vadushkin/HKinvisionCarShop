@@ -309,7 +309,7 @@ button {
 
 
 /* ############################################################### */
-/* Rent car block end */
+/* Rent car block start */
 /* ############################################################### */
 
 .rent-car {
@@ -320,7 +320,7 @@ button {
     text-align: center;
 }
 
-.rent-car__wrapper {
+.rent-car__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
@@ -377,7 +377,44 @@ button {
     background-image: url(../img/rent-car4.jpg);
 }
 
-
 /* ############################################################### */
 /* Rent car block end */
+/* ############################################################### */
+
+
+/* ############################################################### */
+/* Services block start */
+/* ############################################################### */
+
+.services {
+    padding-bottom: 120px;
+}
+
+.services__title {
+    margin-bottom: 66px;
+}
+
+.services__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.services__card-img {
+    margin-bottom: 24px;
+}
+
+.services__card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.services__card-text {
+    opacity: 0.8;
+}
+
+/* ############################################################### */
+/* Services block end */
 /* ############################################################### */
