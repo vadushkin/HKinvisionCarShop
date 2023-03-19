@@ -151,6 +151,14 @@ button {
     padding: 0 10px;
 }
 
+.title-section {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
 .btn-primary {
     background-color: #EE8313;
     padding: 12px 24px;
@@ -297,4 +305,79 @@ button {
 
 /* ############################################################### */
 /* Banner block end */
+/* ############################################################### */
+
+
+/* ############################################################### */
+/* Rent car block end */
+/* ############################################################### */
+
+.rent-car {
+    padding: 120px 0;
+}
+
+.rent-car__title {
+    text-align: center;
+}
+
+.rent-car__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.rent-car__card-name {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 52px;
+}
+
+.rent-car__card-link {
+    position: absolute;
+    right: 60px;
+    padding-right: 30px;
+    bottom: 48px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.rent-car__card-link::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 0;
+    width: 8px;
+    height: 16px;
+    background: url(../img/svg/arrow.svg) 50% / cover no-repeat;
+    transform: translateY(-50%);
+}
+
+.rent-car__card {
+    position: relative;
+    height: 524px;
+    background: url(../img/rent-car1.jpg) 50% / cover no-repeat;
+}
+
+.rent-car__card:nth-child(2) {
+    background-image: url(../img/rent-car2.jpg);
+}
+
+
+.rent-car__card:nth-child(3) {
+    background-image: url(../img/rent-car3.jpg);
+}
+
+
+.rent-car__card:nth-child(4) {
+    background-image: url(../img/rent-car4.jpg);
+}
+
+
+/* ############################################################### */
+/* Rent car block end */
 /* ############################################################### */
