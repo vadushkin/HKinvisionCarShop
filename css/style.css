@@ -158,6 +158,14 @@ button {
     color: white;
 }
 
+.btn-secondary {
+    border: 1px solid #EE8313;
+    color: #EE8313;
+    padding: 12px 24px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
 /* ############################################################### */
 /* Main block end */
 /* ############################################################### */
@@ -206,7 +214,86 @@ button {
 /* Banner block start */
 /* ############################################################### */
 
+.banner {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
 
+.banner__wrapper {
+    max-width: 475px;
+    padding-top: 40px;
+}
+
+.banner-title {
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+}
+
+.banner-text {
+    margin-bottom: 48px;
+    font-size: 17px;
+    color: rgb(255 255 255 / 80%);
+}
+
+.banner__links-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    gap: 35px;
+    align-items: center;
+}
+
+.banner__stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.banner__stats-text--strong {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-right: 16px;
+    vertical-align: sub;
+}
+
+.banner__stats-text {
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.banner__img {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+.banner__img::before {
+    position: absolute;
+    content: '';
+    width: 96%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    background: url(../img/banner.png) no-repeat;
+}
+
+.banner__img::after {
+    position: absolute;
+    content: '';
+    width: 75%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background-color: rgb(52 52 52 / 30%);
+}
 
 /* ############################################################### */
 /* Banner block end */
