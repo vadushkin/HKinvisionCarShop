@@ -195,7 +195,8 @@ button {
     font-weight: 600;
 }
 
-.header__logo-img {
+.header__logo-img,
+footer__about-img {
     height: 48px;
     width: 48px;
 }
@@ -489,7 +490,7 @@ button {
 
 
 /* ############################################################### */
-/* Location block end */
+/* Location block start */
 /* ############################################################### */
 
 .location {
@@ -502,4 +503,90 @@ button {
 
 /* ############################################################### */
 /* Location block end */
+/* ############################################################### */
+
+
+/* ############################################################### */
+/* Footer block start */
+/* ############################################################### */
+
+.footer {
+    padding-top: 40px;
+    background-color: #1F1905;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+
+.footer__logo-wrapper {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 64px;
+    gap: 17px;
+}
+
+.footer-about__text {
+    max-width: 235px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.footer__nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px 0 auto;
+    gap: 45px;
+}
+
+.footer__nav-column__header {
+    margin-bottom: 32px;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.footer__nav-column__item {
+    margin-bottom: 28px;
+    line-height: 20px;
+}
+
+.footer__nav-column__link {
+    opacity: 0.8;
+}
+
+.footer__social-network {
+    margin-top: 32px;
+}
+
+.footer__social-network-link {
+    display: block;
+    width: 120px;
+    height: 30px;
+    margin-bottom: 45px;
+    background: url(../img/svg/social1.svg) 50% / cover no-repeat;
+}
+
+.footer__social-network-link:nth-child(2) {
+    background-image: url(../img/svg/social2.svg);
+}
+
+.footer__social-network-link:nth-child(3) {
+    background-image: url(../img/svg/social3.svg);
+    margin-bottom: 0;
+}
+
+.footer__copyright- {
+    padding: 20px 0;
+    background-color: #EE8313;
+}
+
+.footer__copyright-text {
+    text-align: center;
+}
+
+/* ############################################################### */
+/* Footer block end */
 /* ############################################################### */
