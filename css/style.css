@@ -418,3 +418,71 @@ button {
 /* ############################################################### */
 /* Services block end */
 /* ############################################################### */
+
+
+/* ############################################################### */
+/* Popular places block start */
+/* ############################################################### */
+
+.popular-places {
+    padding-bottom: 162px;
+}
+
+.popular-places__title {
+    text-align: center;
+    max-width: 591px;
+    margin: 0 auto 40px;
+}
+
+.popular-places__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.popular-places__card {
+    border: 1px solid #171717;
+    background-color: #171717;
+}
+
+.popular-places__card-stats {
+    padding: 24px;
+}
+
+.popular-places__card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.popular-places__card-text {
+    opacity: 0.8;
+    margin: 10px 0 25px;
+}
+
+.popular-places__card-price {
+    position: relative;
+    display: block;
+    font-weight: 600;
+    padding-left: 42px;
+    margin-bottom: 17px;
+}
+
+.popular-places__card-price::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    background: url(../img/svg/mini-car.svg) no-repeat;
+}
+
+.popular-places__card-link {
+    color: #EE8313;
+}
+
+/* ############################################################### */
+/* Popular places block end */
+/* ############################################################### */
