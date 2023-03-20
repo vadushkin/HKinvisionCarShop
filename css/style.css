@@ -166,12 +166,20 @@ button {
     color: white;
 }
 
+.btn-primary:hover {
+    background-color: #be5f08;
+}
+
 .btn-secondary {
     border: 1px solid #EE8313;
     color: #EE8313;
     padding: 12px 24px;
     line-height: 24px;
     font-weight: 600;
+}
+
+.btn-secondary:hover {
+    transform: scale(101%);
 }
 
 /* ############################################################### */
@@ -193,6 +201,14 @@ button {
     justify-content: space-between;
     align-items: center;
     font-weight: 600;
+}
+
+.header__nav-item-link {
+    transition: .5s;
+}
+
+.header__nav-item-link:hover {
+    color: #EE8313;
 }
 
 .header__logo-img,
@@ -484,6 +500,10 @@ footer__about-img {
     color: #EE8313;
 }
 
+.popular-places__card-link:hover {
+    color: #be5f08;
+}
+
 /* ############################################################### */
 /* Popular places block end */
 /* ############################################################### */
@@ -555,6 +575,10 @@ footer__about-img {
 
 .footer__nav-column__link {
     opacity: 0.8;
+}
+
+.footer__nav-column__link:hover {
+    color: #EE8313;
 }
 
 .footer__social-network {
